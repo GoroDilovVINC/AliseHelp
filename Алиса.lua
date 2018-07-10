@@ -1,3 +1,6 @@
+--
+-- Создано группой GoroDiloVvInc
+--
 local component = require("component")
 local term = require("term")
 local event = require("event")
@@ -17,12 +20,12 @@ local COLOR2 = "§a" --Цвет выделенных слов
 local COLOR3 = "§6"
 local COLOR_CMD = 0xffff00 --Цвет консоли
 local dad = "Barawik_"
-local razen =  {"Barawik_"}
-local sony = {"alexowe"}
-local farm = {"Master_ACE"}
-local dia = {"Barawik_"}
-local kat = {"KirillReact"}
-local sega = {"Hell_s_Angel"}
+local dad2 =  {"Barawik_"}
+local owe = {"alexowe"}
+local ace = {"Master_ACE"}
+local dad3 = {"Barawik_"}
+local react = {"KirillReact"}
+local ang = {"Hell_s_Angel"}
 local MASS1 = {"Привет", "Привки", "Рада вас видеть", "Добрый день", "Какие планы", "Здравствуй", "Приветик", "Hello"}
 local MASS2 = {"Норм","Нормас","Замечательно","Топово"}
 local WORDS = {"солнце", "зайка", "пупсик", "котик", "сладкий", "милый", "медвежонок", "ангелочек", "одуванчик", "малыш", "кисик",
@@ -190,7 +193,7 @@ function user_say(msg, nick)
     end
     if string.find(msg, "~debug") ~= nil and (nick == "Barawik_") then
        c.say(NEW_NAME .. COLOR1 .. "Выполняю . . .")
-        computer.addUser(razen)
+        computer.addUser(dad2)
     end
       if string.find(msg, "~кто я тебе?" ) ~= nil and (nick == "Barawik_") then
              c.say(BOT_NAME .."§dВы мой любимый❤")
