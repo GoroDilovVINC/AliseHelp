@@ -1,5 +1,5 @@
 --
--- Создано группой GoroDiloVvInc
+-- Создано групой GoroDiloVvInc
 --
 local component = require("component")
 local term = require("term")
@@ -219,9 +219,9 @@ function user_say(msg, nick)
        c.say(BOT_NAME .. COLOR1 .. "Для использования команды вы должны быть" .." §bмоим хозяином :D")
 	end
 	   if string.find(msg, "~motd") ~= nil and  (nick == "Barawik_" or nick ~= "alexowe") then
-        c.say(NEW_NAME..COLOR1.."Здравствуйте, я Алиса. Голосовой помощник Яндекса.".. "§4")
-		c.say(NEW_NAME..COLOR1.."Я живу в вашей Яндекс.Станции, а Станция у Вас.".. "§4<3")
-		c.say(NEW_NAME..COLOR1.."Ожидание первого сообщения в чате.".. "§4")
+c.say(NEW_NAME..COLOR1.."Здравствуйте, я Алиса. Голосовой помощник Яндекса.".. "§4")
+c.say(NEW_NAME..COLOR1.."Сборка на PasteBin".. "§4https://clck.ru/DnH52")
+c.say(NEW_NAME..COLOR1.."GoroDiloVvInc (GitHub)".. "§4https://clck.ru/DnH5k")
 	end
 	   if string.find(msg, "~motd") ~= nil and  (nick ~= "Barawik_" or nick == "alexowe") then
        c.say(BOT_NAME .. COLOR1 .. "Для использования команды вы должны быть" .." §bмоим хозяином :D")
@@ -239,8 +239,8 @@ function user_say(msg, nick)
 end
  
 c.say(NEW_NAME..COLOR1.."Здравствуйте, я Алиса. Голосовой помощник Яндекса.".. "§4")
-c.say(NEW_NAME..COLOR1.."Я живу в вашей Яндекс.Станции, а Станция у Вас.".. "§4<3")
-c.say(NEW_NAME..COLOR1.."Ожидание первого сообщения в чате.".. "§4")
+c.say(NEW_NAME..COLOR1.."Сборка на PasteBin".. "§4https://clck.ru/DnH52")
+c.say(NEW_NAME..COLOR1.."GoroDiloVvInc (GitHub)".. "§4https://clck.ru/DnH5k")
  
 while true do
     local _, _, nick, msg = event.pull(1, "chat_message")
